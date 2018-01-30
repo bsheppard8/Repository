@@ -29,13 +29,13 @@ public class Person1 {
 	 * "g123bgt".
 	 *
 	 * @param input the string to be modified
-	 * @return the modified string
+	 * @return output the modified string
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
 	  	StringBuilder builder = new StringBuilder();
 		builder = builder.append(input.substring(2));
-		builder = builder.append(input.substring(0,1));
+		builder = builder.append(input.substring(0,2));
 		String output = builder.toString();
 		
 	  return output;
