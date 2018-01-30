@@ -1,5 +1,7 @@
 package edu.gatech.oad.antlab.person;
 
+import java.lang.StringBuilder;
+
 /**
  *  A simple class for person 1
  *  returns their name and a
@@ -31,7 +33,7 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  //Person 1 put your implementation here
-	  	Stringbuilder builder = new Stringbuilder();
+	  	StringBuilder builder = new StringBuilder();
 		builder = builder.append(input.substring(2));
 		builder = builder.append(input.substring(0,1));
 		String output = builder.toString();
